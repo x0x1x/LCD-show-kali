@@ -45,9 +45,10 @@ And Ensure that the raspberry pi is connected to the Internet before executing t
 ```chmod -R 755 LCD-show-kali```<br>
 ```cd LCD-show-kali/```<br>
 
-# bluetooth fix, ttyAMA0>>serial0
-#sudo nano usr/cmdline.txt
-#console=serial0,115200
+Bluetooth fix, ttyAMA0>>serial0<br>
+====================================================
+```sudo nano usr/cmdline.txt```<br>
+```console=serial0,115200```<br>
   
 3.)Step3, According to your LCD's type, excute:
 ====================================================
