@@ -39,7 +39,7 @@ Update: <br>
 Use SSH to connect the raspberry pi, <br>
 And Ensure that the raspberry pi is connected to the Internet before executing the following commands:
 -----------------------------------------------------------------------------------------------------
-
+```cd ~/```<br>
 ```sudo rm -rf LCD-show-kali```<br>
 ```git clone https://github.com/x0x1x/LCD-show-kali.git```<br>
 ```chmod -R 755 LCD-show-kali```<br>
